@@ -1214,10 +1214,9 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (gr_text JLCJLCJLCJLC (at 133.95 154.1) (layer B.SilkS)
+  (gr_text JLCJLCJLCJLC (at 133.95 55.4) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "LP-01 Front Panel\nRev A\n20190912 RJH" (at 133.95 32.6) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 133.95 26) (end 133.95 163.9) (layer Eco2.User) (width 0.15))
