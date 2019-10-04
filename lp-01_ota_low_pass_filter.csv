@@ -1,18 +1,18 @@
-Title,LP-01 OTA Low-Pass Filter
-Revision,A
-Date,2019-09-10
-Generated,9/15/2019 4:34:38 PM
-Company,RJH
-Comment 1,
-Comment 2,
-Comment 3,
-Comment 4,
-Total Parts,48
-Total Unique Parts,25
-
-
-
-Ref,Qty,Value,Footprint,MFN,Manufacturer,
+Title,LP-01 OTA Low-Pass Filter,,,,
+Revision,A,,,,
+Date,2019-09-10,,,,
+Generated,9/25/2019 12:26:20 AM,,,,
+Company,RJH,,,,
+Comment 1,,,,,
+Comment 2,,,,,
+Comment 3,,,,,
+Comment 4,,,,,
+Total Parts,48,,,,
+Total Unique Parts,25,,,,
+,,,,,
+,,,,,
+,,,,,
+Ref,Qty,Value,Footprint,MFN,Manufacturer
 C8 C9 ,2,1n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,SR201A102JAR,AVX
 C5 ,1,4n7,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,K472K15X7RH5TL2,Vishay
 C12 ,1,470n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,FG18X7R1H474KRT00,TDK
@@ -38,9 +38,9 @@ RV4 ,1,B10K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,
 U2 ,1,LM13700,Package_DIP:DIP-16_W7.62mm_Socket,LM13700N/NOPB,Texas Instruments
 U1 ,1,TL072,Package_DIP:DIP-8_W7.62mm_Socket,TL072IP,Texas Instruments
 U3 ,1,TL074,Package_DIP:DIP-14_W7.62mm_Socket,TL074CN,Texas Instruments
-
-
-
-
-BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
-Generated 9/15/2019 4:34:38 PM
+U2 ,1,,Package_DIP:DIP-16_W7.62mm_Socket,ED16DT ,On Shore Technology
+U1 ,1,,Package_DIP:DIP-8_W7.62mm_Socket,ED08DT,On Shore Technology
+U3 ,1,,Package_DIP:DIP-14_W7.62mm_Socket,ED14DT,On Shore Technology
+,,,,,
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git),,,,,
+Generated 9/25/2019 12:26:20 AM,,,,,
