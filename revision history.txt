@@ -1,0 +1,10 @@
+Rev A.1
+2020-01-17
+
+- Adjust values so CV2 serves as V/oct input
+- Replace RV4 with higher impedance non-detented pot
+
+Rev A
+2019-09-10
+
+original revision

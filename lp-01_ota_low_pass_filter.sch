@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:lp-01_ota_low_pass_filter-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -7,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "LP-01 OTA Low-Pass Filter"
 Date "2019-09-10"
-Rev "A"
+Rev "A.1"
 Comp "RJH"
 Comment1 ""
 Comment2 ""
@@ -759,10 +758,10 @@ L Device:R R18
 U 1 1 5DD3204A
 P 2300 2850
 F 0 "R18" V 2093 2850 50  0000 C CNN
-F 1 "100K" V 2184 2850 50  0000 C CNN
+F 1 "220K" V 2184 2850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2230 2850 50  0001 C CNN
 F 3 "~" H 2300 2850 50  0001 C CNN
-F 4 "RNF18FTD100K" H 2300 2850 50  0001 C CNN "MFN"
+F 4 "RNMF14FTC220K" H 2300 2850 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 2300 2850 50  0001 C CNN "Manufacturer"
 	1    2300 2850
 	0    1    1    0   
@@ -790,8 +789,6 @@ Wire Wire Line
 	2350 4200 2700 4200
 Text Label 4200 3650 0    50   ~ 0
 I_ABC
-Text Notes 1800 2350 2    50   ~ 0
-center detent
 Connection ~ 2600 2200
 Wire Wire Line
 	2600 2200 2600 2850
@@ -1517,10 +1514,10 @@ L Device:R_POT RV4
 U 1 1 5D8E6320
 P 1900 2200
 F 0 "RV4" H 1831 2154 50  0000 R CNN
-F 1 "B10K" H 1831 2245 50  0000 R CNN
+F 1 "B100K" H 1831 2245 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1900 2200 50  0001 C CNN
 F 3 "~" H 1900 2200 50  0001 C CNN
-F 4 "RD901F-40-15F-B10K-00DL1 (center detent)" H 1900 2200 50  0001 C CNN "MFN"
+F 4 "RD901F-40-15F-B100K-00DL1" H 1900 2200 50  0001 C CNN "MFN"
 F 5 "Alpha" H 1900 2200 50  0001 C CNN "Manufacturer"
 	1    1900 2200
 	1    0    0    1   
@@ -1571,7 +1568,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1050 1400 1050
 Text Notes 550  7950 0    50   ~ 0
-Trim procedure:\n\nRV3: resonance gain\n  Reduce to minimum\n  Increase until self-oscillation is sustained across frequency range at max resonance\nRV2: V/oct trim\n  Set resonance (RV5) to self-oscillate\n  Set so self-oscillation tracks 1 V/oct at J1 with RV4 at center and no input in J2 or J3\n\nNotes on component values:\n\nD1-D2: LEDs with Vf around 2V recommended\nR1: frequency control (RV1) range limit - lower values for higher range\nR2: frequency control (RV2) sensitivity - lower values for greater sensitivity\nR14: output gain - higher values for higher gain.\n  Higher values will cause clipping at self-oscillation, but give more gain if that is not desired\nR17: input gain reduction - higher values give higher output volume, with lower resonance\nR18: sensitivty of CV2 (untrimmed CV in) - lower values for greater sensitivity.\n  1V/oct at approx 240K\n
+Trim procedure:\n\nRV3: resonance gain\n  Reduce to minimum\n  Increase until self-oscillation is sustained across frequency range at max resonance\nRV2: V/oct trim\n  Set resonance (RV5) to self-oscillate\n  Set so self-oscillation tracks 1 V/oct at J2 with no input in J2 or J3\n\nNotes on component values:\n\nD1-D2: LEDs with Vf around 2V recommended\nR1: frequency control (RV1) range limit - lower values for higher range\nR2: frequency control (RV2) sensitivity - lower values for greater sensitivity\nR14: output gain - higher values for higher gain.\n  Higher values will cause clipping at self-oscillation, but give more gain if that is not desired\nR17: input gain reduction - higher values give higher output volume, with lower resonance\nR18: sensitivty of CV2 (untrimmed CV in) - lower values for greater sensitivity.
 Text Notes 550  6350 0    75   ~ 15
 Implementation Notes
 $EndSCHEMATC
