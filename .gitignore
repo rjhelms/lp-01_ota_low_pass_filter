@@ -11,5 +11,6 @@ shapes3D/
 *.kicad_pcb-bak
 *.bak
 *_RenumBack
+_autosave*
 
 panel/text/

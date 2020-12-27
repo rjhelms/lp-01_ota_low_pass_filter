@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name lp-01_ota_low_pass_filter-rescue)(type Legacy)(uri ${KIPRJMOD}/lp-01_ota_low_pass_filter-rescue.lib)(options "")(descr ""))
+)

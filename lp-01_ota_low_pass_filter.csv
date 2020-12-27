@@ -1,46 +1,28 @@
-Title,LP-01 OTA Low-Pass Filter,,,,
-Revision,A,,,,
-Date,2019-09-10,,,,
-Generated,9/25/2019 12:26:20 AM,,,,
-Company,RJH,,,,
-Comment 1,,,,,
-Comment 2,,,,,
-Comment 3,,,,,
-Comment 4,,,,,
-Total Parts,48,,,,
-Total Unique Parts,25,,,,
-,,,,,
-,,,,,
-,,,,,
-Ref,Qty,Value,Footprint,MFN,Manufacturer
-C8 C9 ,2,1n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,SR201A102JAR,AVX
-C5 ,1,4n7,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,K472K15X7RH5TL2,Vishay
-C12 ,1,470n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,FG18X7R1H474KRT00,TDK
-C11 C10 C7 C6 C3 C4 ,6,100n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,K104K15X7RF5TL2,Vishay
-C2 C1 ,2,10u,Capacitor_THT:CP_Radial_D4.0mm_P1.50mm,USR1E100MDD1TP,Nichicon
-D1 D2 ,2,LED Green,LED_THT:LED_D5.0mm,SLR-56MC3F,Rohm
-J3 J1 J2 J4 ,4,AudioJack2,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,WQP-PJ398SM,QingPu
-J5 ,1,Conn_02x05_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical, , 
-Q1 Q2 ,2,2N3906,Package_TO_SOT_THT:TO-92_Inline_Wide,2N3906-AP,MCC
-R17 ,1,68K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNMF14FTC68K0,Stackpole
-R2 ,1,220K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNMF14FTC220K,Stackpole
-R3 R18 ,2,100K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNF18FTD100K,Stackpole
-R19 ,1,1K0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNF18FTD1K00,Stackpole
-R8 R7 R12 R11 ,4,220R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNMF14FTC220R,Stackpole
-R5 ,1,470K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,CF18JT470K,Stackpole
-R14 R6 R16 R10 R15 R13 ,6,10K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNMF14FAD10K0,Stackpole
-R4 R1 ,2,4K7,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNMF14FTC4K70,Stackpole
-R9 ,1,1K8,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,RNMF14FTC1K80,Stackpole
-RV1 ,1,B10K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,RD901F-40-15F-B10K-00DL1,Alpha
-RV5 ,1,A100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,RD901F-40-15F-A100K,Alpha
-RV3 RV2 ,2,10K,Potentiometer_Custom:Potentiometer_Bourns_PV36W,PV36X103C01B00,Bourns
-RV4 ,1,B10K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,RD901F-40-15F-B10K-00DL1 (center detent),Alpha
-U2 ,1,LM13700,Package_DIP:DIP-16_W7.62mm_Socket,LM13700N/NOPB,Texas Instruments
-U1 ,1,TL072,Package_DIP:DIP-8_W7.62mm_Socket,TL072IP,Texas Instruments
-U3 ,1,TL074,Package_DIP:DIP-14_W7.62mm_Socket,TL074CN,Texas Instruments
-U2 ,1,,Package_DIP:DIP-16_W7.62mm_Socket,ED16DT ,On Shore Technology
-U1 ,1,,Package_DIP:DIP-8_W7.62mm_Socket,ED08DT,On Shore Technology
-U3 ,1,,Package_DIP:DIP-14_W7.62mm_Socket,ED14DT,On Shore Technology
-,,,,,
-BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git),,,,,
-Generated 9/25/2019 12:26:20 AM,,,,,
+Reference, Quantity, Value, Footprint, Datasheet, MFN, Manufacturer, Vendor
+C11 C10 C7 C6 C3 C4 ,6,100n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,~,K104K15X7RF5TL2,Vishay,Digi-Key
+C12 ,1,470n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,~,FG18X7R1H474KRT00,TDK,Digi-Key
+C2 C1 ,2,10u,Capacitor_THT:CP_Radial_D4.0mm_P1.50mm,~,USR1E100MDD1TP,Nichicon,Digi-Key
+C5 ,1,4n7,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,~,K472K15X7RH5TL2,Vishay,Digi-Key
+C8 C9 ,2,1n,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,~,SR201A102JAR,AVX,Digi-Key
+D1 D2 ,2,LED Green,LED_THT:LED_D5.0mm,~,SLR-56MC3F,Rohm,Digi-Key
+J3 J1 J2 J4 ,4,AudioJack2,Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles,~,WQP-PJ398SM,QingPu,Thonk
+J5 ,1,Conn_02x05_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,~,67997-410HLF,Amphenol ICC / FCI,Digi-Key
+Q1 Q2 ,2,2N3906,Package_TO_SOT_THT:TO-92_Inline_Wide,https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf,2N3906-AP,MCC,Digi-Key
+R1 ,1,47K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC47K0,Stackpole,Digi-Key
+R14 R6 R16 R10 R15 R13 ,6,10K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FAD10K0,Stackpole,Digi-Key
+R17 ,1,68K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC68K0,Stackpole,Digi-Key
+R19 ,1,1K0,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNF18FTD1K00,Stackpole,Digi-Key
+R2 R18 ,2,220K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC220K,Stackpole,Digi-Key
+R3 ,1,100K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNF18FTD100K,Stackpole,Digi-Key
+R4 ,1,4K7,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC4K70,Stackpole,Digi-Key
+R5 ,1,470K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,CF18JT470K,Stackpole,Digi-Key
+R8 R7 R12 R11 ,4,220R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC220R,Stackpole,Digi-Key
+R9 ,1,1K8,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC1K80,Stackpole,Digi-Key
+RV1 RV5 RV4 ,3,B100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,~,RD901F-40-15F-B100K,Alpha,Thonk
+RV3 RV2 ,2,10K,Potentiometer_Custom:Potentiometer_Bourns_PV36W,~,PV36X103C01B00,Bourns,Digi-Key
+U1 ,1,TL072,Package_DIP:DIP-8_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf,TL072IP,Texas Instruments,Digi-Key
+U2 ,1,LM13700,Package_DIP:DIP-16_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/lm13700.pdf,LM13700N/NOPB,Texas Instruments,Digi-Key
+U3 ,1,TL074,Package_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf,TL074CN,Texas Instruments,Digi-Key
+U1 ,1,TL072 (socket),Package_DIP:DIP-8_W7.62mm_Socket,~,ED08T,On Shore Technology,Digi-Key
+U2 ,1,LM13700 (socket),Package_DIP:DIP-16_W7.62mm_Socket,~,ED16T,On Shore Technology,Digi-Key
+U3 ,1,TL074 (socket),Package_DIP:DIP-14_W7.62mm_Socket,~,ED14T,On Shore Technology,Digi-Key

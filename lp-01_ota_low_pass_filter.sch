@@ -5,10 +5,10 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "LP-01 OTA Low-Pass Filter"
-Date "2019-09-10"
-Rev "A.1"
-Comp "RJH"
-Comment1 ""
+Date "2020-12-27"
+Rev "A.2"
+Comp "RJH robhailman.com"
+Comment1 "Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -23,6 +23,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3450 4325 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 3450 4325 50  0001 C CNN
 F 4 "LM13700N/NOPB" H 3750 4300 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 3750 4300 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3750 4300 50  0001 C CNN "Vendor"
 	5    3750 4300
 	1    0    0    -1  
 $EndComp
@@ -58,6 +59,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2780 4200 
 F 3 "~" H 2850 4200 50  0001 C CNN
 F 4 "RNMF14FTC68K0" H 2850 4200 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 2850 4200 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 2850 4200 50  0001 C CNN "Vendor"
 	1    2850 4200
 	0    1    1    0   
 $EndComp
@@ -90,6 +92,7 @@ F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 215
 F 3 "~" H 2150 4200 50  0001 C CNN
 F 4 "WQP-PJ398SM" H 2150 4200 50  0001 C CNN "MFN"
 F 5 "QingPu" H 2150 4200 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 2150 4200 50  0001 C CNN "Vendor"
 	1    2150 4200
 	1    0    0    1   
 $EndComp
@@ -116,6 +119,7 @@ F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 8200 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8200 2600 50  0001 C CNN
 F 4 "TL072IP" H 8200 2600 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 8200 2600 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8200 2600 50  0001 C CNN "Vendor"
 	2    8200 2600
 	1    0    0    -1  
 $EndComp
@@ -150,6 +154,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 9250 2625 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 9250 2625 50  0001 C CNN
 F 4 "LM13700N/NOPB" H 9550 2600 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 9550 2600 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 9550 2600 50  0001 C CNN "Vendor"
 	2    9550 2600
 	1    0    0    -1  
 $EndComp
@@ -181,6 +186,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6888 4450 50  0001 C CNN
 F 3 "~" H 6850 4600 50  0001 C CNN
 F 4 "SR201A102JAR" H 6850 4600 50  0001 C CNN "MFN"
 F 5 "AVX" H 6850 4600 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 6850 4600 50  0001 C CNN "Vendor"
 	1    6850 4600
 	1    0    0    -1  
 $EndComp
@@ -283,6 +289,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3488 1950 50  0001 C CNN
 F 3 "~" H 3450 2100 50  0001 C CNN
 F 4 "K472K15X7RH5TL2" H 3450 2100 50  0001 C CNN "MFN"
 F 5 "Vishay" H 3450 2100 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3450 2100 50  0001 C CNN "Vendor"
 	1    3450 2100
 	0    1    1    0   
 $EndComp
@@ -331,6 +338,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2230 1350 
 F 3 "~" H 2300 1350 50  0001 C CNN
 F 4 "RNMF14FTC220K" H 2300 1350 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 2300 1350 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 2300 1350 50  0001 C CNN "Vendor"
 	1    2300 1350
 	0    1    1    0   
 $EndComp
@@ -344,6 +352,7 @@ F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3450 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3450 1500 50  0001 C CNN
 F 4 "TL072IP" H 3450 1500 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 3450 1500 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3450 1500 50  0001 C CNN "Vendor"
 	1    3450 1500
 	1    0    0    -1  
 $EndComp
@@ -379,19 +388,21 @@ F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 3450 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3450 1500 50  0001 C CNN
 F 4 "TL072IP" H 3450 1500 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 3450 1500 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3450 1500 50  0001 C CNN "Vendor"
 	3    3450 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV1
+L lp-01_ota_low_pass_filter-rescue:R_POT-Device RV1
 U 1 1 5D50AA26
 P 1900 1350
 F 0 "RV1" H 1831 1304 50  0000 R CNN
-F 1 "B10K" H 1831 1395 50  0000 R CNN
+F 1 "B100K" H 1831 1395 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1900 1350 50  0001 C CNN
 F 3 "~" H 1900 1350 50  0001 C CNN
-F 4 "RD901F-40-15F-B10K-00DL1" H 1900 1350 50  0001 C CNN "MFN"
+F 4 "RD901F-40-15F-B100K" H 1900 1350 50  0001 C CNN "MFN"
 F 5 "Alpha" H 1900 1350 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 1900 1350 50  0001 C CNN "Vendor"
 	1    1900 1350
 	1    0    0    1   
 $EndComp
@@ -420,6 +431,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 8700 2625 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 8700 2625 50  0001 C CNN
 F 4 "LM13700N/NOPB" H 9000 2600 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 9000 2600 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 9000 2600 50  0001 C CNN "Vendor"
 	4    9000 2600
 	1    0    0    -1  
 $EndComp
@@ -486,6 +498,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3450 4325 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 3450 4325 50  0001 C CNN
 F 4 "LM13700N/NOPB" H 3750 4300 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 3750 4300 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3750 4300 50  0001 C CNN "Vendor"
 	3    3750 4300
 	1    0    0    1   
 $EndComp
@@ -499,6 +512,7 @@ F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 6150 4325 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm13700.pdf" H 6150 4325 50  0001 C CNN
 F 4 "LM13700N/NOPB" H 6450 4300 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 6450 4300 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 6450 4300 50  0001 C CNN "Vendor"
 	1    6450 4300
 	1    0    0    1   
 $EndComp
@@ -528,6 +542,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 7938 5000 50  0001 C CNN
 F 3 "~" H 7900 5150 50  0001 C CNN
 F 4 "FG18X7R1H474KRT00" H 7900 5150 50  0001 C CNN "MFN"
 F 5 "TDK" H 7900 5150 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 7900 5150 50  0001 C CNN "Vendor"
 	1    7900 5150
 	-1   0    0    1   
 $EndComp
@@ -541,6 +556,7 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7500 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7600 4600 50  0001 C CNN
 F 4 "TL074CN" H 7550 4400 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 7550 4400 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 7550 4400 50  0001 C CNN "Vendor"
 	2    7550 4400
 	1    0    0    -1  
 $EndComp
@@ -554,6 +570,7 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5150 5850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5250 5950 50  0001 C CNN
 F 4 "TL074CN" H 5200 5750 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 5200 5750 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5200 5750 50  0001 C CNN "Vendor"
 	3    5200 5750
 	-1   0    0    -1  
 $EndComp
@@ -567,6 +584,7 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7500 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7600 4600 50  0001 C CNN
 F 4 "TL074CN" H 7550 4400 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 7550 4400 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 7550 4400 50  0001 C CNN "Vendor"
 	5    7550 4400
 	1    0    0    -1  
 $EndComp
@@ -615,6 +633,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 4138 4400 50  0001 C CNN
 F 3 "~" H 4100 4550 50  0001 C CNN
 F 4 "SR201A102JAR" H 4100 4550 50  0001 C CNN "MFN"
 F 5 "AVX" H 4100 4550 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4100 4550 50  0001 C CNN "Vendor"
 	1    4100 4550
 	1    0    0    -1  
 $EndComp
@@ -628,6 +647,7 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4750 4500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4850 4600 50  0001 C CNN
 F 4 "TL074CN" H 4800 4400 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 4800 4400 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4800 4400 50  0001 C CNN "Vendor"
 	1    4800 4400
 	1    0    0    -1  
 $EndComp
@@ -680,6 +700,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2230 2200 
 F 3 "~" H 2300 2200 50  0001 C CNN
 F 4 "RNF18FTD100K" H 2300 2200 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 2300 2200 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 2300 2200 50  0001 C CNN "Vendor"
 	1    2300 2200
 	0    1    1    0   
 $EndComp
@@ -718,6 +739,7 @@ F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 135
 F 3 "~" H 1350 1900 50  0001 C CNN
 F 4 "WQP-PJ398SM" H 1350 1900 50  0001 C CNN "MFN"
 F 5 "QingPu" H 1350 1900 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 1350 1900 50  0001 C CNN "Vendor"
 	1    1350 1900
 	1    0    0    1   
 $EndComp
@@ -748,6 +770,7 @@ F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 135
 F 3 "~" H 1350 2850 50  0001 C CNN
 F 4 "WQP-PJ398SM" H 1350 2850 50  0001 C CNN "MFN"
 F 5 "QingPu" H 1350 2850 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 1350 2850 50  0001 C CNN "Vendor"
 	1    1350 2850
 	1    0    0    1   
 $EndComp
@@ -763,6 +786,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2230 2850 
 F 3 "~" H 2300 2850 50  0001 C CNN
 F 4 "RNMF14FTC220K" H 2300 2850 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 2300 2850 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 2300 2850 50  0001 C CNN "Vendor"
 	1    2300 2850
 	0    1    1    0   
 $EndComp
@@ -780,6 +804,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8780 5450 
 F 3 "~" H 8850 5450 50  0001 C CNN
 F 4 "RNF18FTD1K00" H 8850 5450 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 8850 5450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8850 5450 50  0001 C CNN "Vendor"
 	1    8850 5450
 	0    1    1    0   
 $EndComp
@@ -815,6 +840,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9738 1600 50  0001 C CNN
 F 3 "~" H 9700 1750 50  0001 C CNN
 F 4 "K104K15X7RF5TL2" H 9700 1750 50  0001 C CNN "MFN"
 F 5 "Vishay" H 9700 1750 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 9700 1750 50  0001 C CNN "Vendor"
 	1    9700 1750
 	1    0    0    -1  
 $EndComp
@@ -828,6 +854,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9738 1300 50  0001 C CNN
 F 3 "~" H 9700 1450 50  0001 C CNN
 F 4 "K104K15X7RF5TL2" H 9700 1450 50  0001 C CNN "MFN"
 F 5 "Vishay" H 9700 1450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 9700 1450 50  0001 C CNN "Vendor"
 	1    9700 1450
 	1    0    0    -1  
 $EndComp
@@ -850,6 +877,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9338 1600 50  0001 C CNN
 F 3 "~" H 9300 1750 50  0001 C CNN
 F 4 "K104K15X7RF5TL2" H 9300 1750 50  0001 C CNN "MFN"
 F 5 "Vishay" H 9300 1750 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 9300 1750 50  0001 C CNN "Vendor"
 	1    9300 1750
 	1    0    0    -1  
 $EndComp
@@ -863,6 +891,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9338 1300 50  0001 C CNN
 F 3 "~" H 9300 1450 50  0001 C CNN
 F 4 "K104K15X7RF5TL2" H 9300 1450 50  0001 C CNN "MFN"
 F 5 "Vishay" H 9300 1450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 9300 1450 50  0001 C CNN "Vendor"
 	1    9300 1450
 	1    0    0    -1  
 $EndComp
@@ -883,6 +912,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8938 1600 50  0001 C CNN
 F 3 "~" H 8900 1750 50  0001 C CNN
 F 4 "K104K15X7RF5TL2" H 8900 1750 50  0001 C CNN "MFN"
 F 5 "Vishay" H 8900 1750 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8900 1750 50  0001 C CNN "Vendor"
 	1    8900 1750
 	1    0    0    -1  
 $EndComp
@@ -896,6 +926,7 @@ F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 8938 1300 50  0001 C CNN
 F 3 "~" H 8900 1450 50  0001 C CNN
 F 4 "K104K15X7RF5TL2" H 8900 1450 50  0001 C CNN "MFN"
 F 5 "Vishay" H 8900 1450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8900 1450 50  0001 C CNN "Vendor"
 	1    8900 1450
 	1    0    0    -1  
 $EndComp
@@ -909,7 +940,7 @@ Wire Wire Line
 Connection ~ 8500 1900
 Connection ~ 8500 1600
 $Comp
-L Device:CP C2
+L lp-01_ota_low_pass_filter-rescue:CP-Device C2
 U 1 1 5D85DD79
 P 8500 1750
 F 0 "C2" H 8618 1796 50  0000 L CNN
@@ -918,11 +949,12 @@ F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 8538 1600 50  0001 C CNN
 F 3 "~" H 8500 1750 50  0001 C CNN
 F 4 "USR1E100MDD1TP" H 8500 1750 50  0001 C CNN "MFN"
 F 5 "Nichicon" H 8500 1750 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8500 1750 50  0001 C CNN "Vendor"
 	1    8500 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C1
+L lp-01_ota_low_pass_filter-rescue:CP-Device C1
 U 1 1 5D85CF6E
 P 8500 1450
 F 0 "C1" H 8618 1496 50  0000 L CNN
@@ -931,6 +963,7 @@ F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 8538 1300 50  0001 C CNN
 F 3 "~" H 8500 1450 50  0001 C CNN
 F 4 "USR1E100MDD1TP" H 8500 1450 50  0001 C CNN "MFN"
 F 5 "Nichicon" H 8500 1450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8500 1450 50  0001 C CNN "Vendor"
 	1    8500 1450
 	1    0    0    -1  
 $EndComp
@@ -1080,6 +1113,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3080 4450 
 F 3 "~" H 3150 4450 50  0001 C CNN
 F 4 "RNMF14FTC220R" H 3150 4450 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 3150 4450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3150 4450 50  0001 C CNN "Vendor"
 	1    3150 4450
 	-1   0    0    1   
 $EndComp
@@ -1093,6 +1127,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 2930 3400 
 F 3 "~" H 3000 3400 50  0001 C CNN
 F 4 "CF18JT470K" H 3000 3400 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 3000 3400 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3000 3400 50  0001 C CNN "Vendor"
 	1    3000 3400
 	-1   0    0    1   
 $EndComp
@@ -1110,6 +1145,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 8230 5800 
 F 3 "~" H 8300 5800 50  0001 C CNN
 F 4 "RNMF14FAD10K0" H 8300 5800 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 8300 5800 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8300 5800 50  0001 C CNN "Vendor"
 	1    8300 5800
 	0    1    1    0   
 $EndComp
@@ -1123,6 +1159,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3580 4950 
 F 3 "~" H 3650 4950 50  0001 C CNN
 F 4 "RNMF14FAD10K0" H 3650 4950 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 3650 4950 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3650 4950 50  0001 C CNN "Vendor"
 	1    3650 4950
 	0    1    1    0   
 $EndComp
@@ -1136,6 +1173,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6380 4950 
 F 3 "~" H 6450 4950 50  0001 C CNN
 F 4 "RNMF14FAD10K0" H 6450 4950 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 6450 4950 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 6450 4950 50  0001 C CNN "Vendor"
 	1    6450 4950
 	0    -1   -1   0   
 $EndComp
@@ -1149,6 +1187,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 4030 3350 
 F 3 "~" H 4100 3350 50  0001 C CNN
 F 4 "RNMF14FAD10K0" H 4100 3350 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 4100 3350 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4100 3350 50  0001 C CNN "Vendor"
 	1    4100 3350
 	-1   0    0    1   
 $EndComp
@@ -1162,6 +1201,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3730 2350 
 F 3 "~" H 3800 2350 50  0001 C CNN
 F 4 "RNMF14FTC4K70" H 3800 2350 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 3800 2350 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3800 2350 50  0001 C CNN "Vendor"
 	1    3800 2350
 	-1   0    0    1   
 $EndComp
@@ -1173,6 +1213,9 @@ F 0 "J5" H 7900 1600 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 7900 1266 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7850 1600 50  0001 C CNN
 F 3 "~" H 7850 1600 50  0001 C CNN
+F 4 "67997-410HLF" H 7850 1600 50  0001 C CNN "MFN"
+F 5 "Amphenol ICC / FCI" H 7850 1600 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 7850 1600 50  0001 C CNN "Vendor"
 	1    7850 1600
 	-1   0    0    1   
 $EndComp
@@ -1186,6 +1229,7 @@ F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 965
 F 3 "~" H 9650 5450 50  0001 C CNN
 F 4 "WQP-PJ398SM" H 9650 5450 50  0001 C CNN "MFN"
 F 5 "QingPu" H 9650 5450 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 9650 5450 50  0001 C CNN "Vendor"
 	1    9650 5450
 	-1   0    0    1   
 $EndComp
@@ -1199,6 +1243,7 @@ F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4400 2775 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4200 2850 50  0001 L CNN
 F 4 "2N3906-AP" H 4200 2850 50  0001 C CNN "MFN"
 F 5 "MCC" H 4200 2850 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 4200 2850 50  0001 C CNN "Vendor"
 	1    4200 2850
 	-1   0    0    1   
 $EndComp
@@ -1212,6 +1257,7 @@ F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 3600 2775 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3400 2850 50  0001 L CNN
 F 4 "2N3906-AP" H 3400 2850 50  0001 C CNN "MFN"
 F 5 "MCC" H 3400 2850 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3400 2850 50  0001 C CNN "Vendor"
 	1    3400 2850
 	1    0    0    1   
 $EndComp
@@ -1229,6 +1275,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7830 6050 
 F 3 "~" H 7900 6050 50  0001 C CNN
 F 4 "RNMF14FAD10K0" H 7900 6050 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 7900 6050 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 7900 6050 50  0001 C CNN "Vendor"
 	1    7900 6050
 	-1   0    0    1   
 $EndComp
@@ -1269,6 +1316,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3080 4950 
 F 3 "~" H 3150 4950 50  0001 C CNN
 F 4 "RNMF14FTC220R" H 3150 4950 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 3150 4950 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3150 4950 50  0001 C CNN "Vendor"
 	1    3150 4950
 	0    1    1    0   
 $EndComp
@@ -1282,6 +1330,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5730 4450 
 F 3 "~" H 5800 4450 50  0001 C CNN
 F 4 "RNMF14FTC220R" H 5800 4450 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 5800 4450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5800 4450 50  0001 C CNN "Vendor"
 	1    5800 4450
 	-1   0    0    1   
 $EndComp
@@ -1303,6 +1352,7 @@ F 2 "LED_THT:LED_D5.0mm" H 5200 6600 50  0001 C CNN
 F 3 "~" H 5200 6600 50  0001 C CNN
 F 4 "SLR-56MC3F" H 5200 6600 50  0001 C CNN "MFN"
 F 5 "Rohm" H 5200 6600 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5200 6600 50  0001 C CNN "Vendor"
 	1    5200 6600
 	1    0    0    -1  
 $EndComp
@@ -1316,6 +1366,7 @@ F 2 "LED_THT:LED_D5.0mm" H 5200 6850 50  0001 C CNN
 F 3 "~" H 5200 6850 50  0001 C CNN
 F 4 "SLR-56MC3F" H 5200 6850 50  0001 C CNN "MFN"
 F 5 "Rohm" H 5200 6850 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5200 6850 50  0001 C CNN "Vendor"
 	1    5200 6850
 	-1   0    0    1   
 $EndComp
@@ -1377,6 +1428,7 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 8250 5550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8350 5650 50  0001 C CNN
 F 4 "TL074CN" H 8300 5450 50  0001 C CNN "MFN"
 F 5 "Texas Instruments" H 8300 5450 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 8300 5450 50  0001 C CNN "Vendor"
 	4    8300 5450
 	1    0    0    -1  
 $EndComp
@@ -1411,19 +1463,21 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5730 6850 
 F 3 "~" H 5800 6850 50  0001 C CNN
 F 4 "RNMF14FTC1K80" H 5800 6850 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 5800 6850 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5800 6850 50  0001 C CNN "Vendor"
 	1    5800 6850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_POT RV5
+L lp-01_ota_low_pass_filter-rescue:R_POT-Device RV5
 U 1 1 5D720B21
 P 5950 5650
 F 0 "RV5" H 5880 5604 50  0000 R CNN
-F 1 "A100K" H 5880 5695 50  0000 R CNN
+F 1 "B100K" H 5880 5695 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 5950 5650 50  0001 C CNN
 F 3 "~" H 5950 5650 50  0001 C CNN
-F 4 "RD901F-40-15F-A100K" H 5950 5650 50  0001 C CNN "MFN"
+F 4 "RD901F-40-15F-B100K" H 5950 5650 50  0001 C CNN "MFN"
 F 5 "Alpha" H 5950 5650 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 5950 5650 50  0001 C CNN "Vendor"
 	1    5950 5650
 	-1   0    0    1   
 $EndComp
@@ -1455,6 +1509,7 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5780 4950 
 F 3 "~" H 5850 4950 50  0001 C CNN
 F 4 "RNMF14FTC220R" H 5850 4950 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 5850 4950 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5850 4950 50  0001 C CNN "Vendor"
 	1    5850 4950
 	0    -1   -1   0   
 $EndComp
@@ -1486,11 +1541,12 @@ F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5430 4200 
 F 3 "~" H 5500 4200 50  0001 C CNN
 F 4 "RNMF14FAD10K0" H 5500 4200 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 5500 4200 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5500 4200 50  0001 C CNN "Vendor"
 	1    5500 4200
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV3
+L lp-01_ota_low_pass_filter-rescue:R_POT_TRIM-Device RV3
 U 1 1 5DA7EF13
 P 5200 6200
 F 0 "RV3" V 4993 6200 50  0000 C CNN
@@ -1499,6 +1555,7 @@ F 2 "Potentiometer_Custom:Potentiometer_Bourns_PV36W" H 5200 6200 50  0001 C CNN
 F 3 "~" H 5200 6200 50  0001 C CNN
 F 4 "PV36X103C01B00" H 5200 6200 50  0001 C CNN "MFN"
 F 5 "Bourns" H 5200 6200 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 5200 6200 50  0001 C CNN "Vendor"
 	1    5200 6200
 	0    -1   1    0   
 $EndComp
@@ -1510,20 +1567,21 @@ Connection ~ 5400 6200
 Wire Wire Line
 	5400 6200 5350 6200
 $Comp
-L Device:R_POT RV4
+L lp-01_ota_low_pass_filter-rescue:R_POT-Device RV4
 U 1 1 5D8E6320
 P 1900 2200
 F 0 "RV4" H 1831 2154 50  0000 R CNN
 F 1 "B100K" H 1831 2245 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical" H 1900 2200 50  0001 C CNN
 F 3 "~" H 1900 2200 50  0001 C CNN
-F 4 "RD901F-40-15F-B100K-00DL1" H 1900 2200 50  0001 C CNN "MFN"
+F 4 "RD901F-40-15F-B100K" H 1900 2200 50  0001 C CNN "MFN"
 F 5 "Alpha" H 1900 2200 50  0001 C CNN "Manufacturer"
+F 6 "Thonk" H 1900 2200 50  0001 C CNN "Vendor"
 	1    1900 2200
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV2
+L lp-01_ota_low_pass_filter-rescue:R_POT_TRIM-Device RV2
 U 1 1 5D8CCB55
 P 2600 3400
 F 0 "RV2" H 2531 3354 50  0000 R CNN
@@ -1532,6 +1590,7 @@ F 2 "Potentiometer_Custom:Potentiometer_Bourns_PV36W" H 2600 3400 50  0001 C CNN
 F 3 "~" H 2600 3400 50  0001 C CNN
 F 4 "PV36X103C01B00" H 2600 3400 50  0001 C CNN "MFN"
 F 5 "Bourns" H 2600 3400 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 2600 3400 50  0001 C CNN "Vendor"
 	1    2600 3400
 	1    0    0    -1  
 $EndComp
@@ -1540,11 +1599,12 @@ L Device:R R1
 U 1 1 5D762D2E
 P 1650 1050
 F 0 "R1" V 1443 1050 50  0000 C CNN
-F 1 "4K7" V 1534 1050 50  0000 C CNN
+F 1 "47K" V 1534 1050 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 1580 1050 50  0001 C CNN
 F 3 "~" H 1650 1050 50  0001 C CNN
-F 4 "RNMF14FTC4K70" H 1650 1050 50  0001 C CNN "MFN"
+F 4 "RNMF14FTC47K0" H 1650 1050 50  0001 C CNN "MFN"
 F 5 "Stackpole" H 1650 1050 50  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 1650 1050 50  0001 C CNN "Vendor"
 	1    1650 1050
 	0    1    1    0   
 $EndComp
@@ -1568,7 +1628,18 @@ Wire Wire Line
 Wire Wire Line
 	1500 1050 1400 1050
 Text Notes 550  7950 0    50   ~ 0
-Trim procedure:\n\nRV3: resonance gain\n  Reduce to minimum\n  Increase until self-oscillation is sustained across frequency range at max resonance\nRV2: V/oct trim\n  Set resonance (RV5) to self-oscillate\n  Set so self-oscillation tracks 1 V/oct at J2 with no input in J2 or J3\n\nNotes on component values:\n\nD1-D2: LEDs with Vf around 2V recommended\nR1: frequency control (RV1) range limit - lower values for higher range\nR2: frequency control (RV2) sensitivity - lower values for greater sensitivity\nR14: output gain - higher values for higher gain.\n  Higher values will cause clipping at self-oscillation, but give more gain if that is not desired\nR17: input gain reduction - higher values give higher output volume, with lower resonance\nR18: sensitivty of CV2 (untrimmed CV in) - lower values for greater sensitivity.
+Trim procedure:\n\nRV3: resonance gain\n  Reduce to minimum\n  Increase until self-oscillation is sustained across frequency range at max resonance\nRV2: V/oct trim\n  Set resonance (RV5) to self-oscillate\n  Set so self-oscillation tracks 1 V/oct at J2 with no input in J2 or J3\n\nNotes on component values:\n\nD1-D2: LEDs with Vf around 2V recommended\nR1: frequency control (RV1) range limit - lower values for higher range\nR2: frequency control (RV2) sensitivity - lower values for greater sensitivity\nR14: output gain - higher values for higher gain.\n  Higher values will increase overall output level, at cost of clipping during self-resonance\nR17: input gain reduction - higher values give higher output volume, with lower resonance
 Text Notes 550  6350 0    75   ~ 15
 Implementation Notes
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5FEA2A3E
+P 10000 6350
+F 0 "LOGO1" H 10000 6850 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 10000 5950 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_5.7x6mm_SilkScreen" H 10000 6350 50  0001 C CNN
+F 3 "~" H 10000 6350 50  0001 C CNN
+	1    10000 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

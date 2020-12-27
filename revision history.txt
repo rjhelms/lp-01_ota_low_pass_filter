@@ -1,3 +1,12 @@
+Rev A.2
+2020-12-26
+
+- Increase value of R1 and RV1 for reduced current draw
+- Replace RV5 with B (linear) pot
+- Assign CC BY-SA 4.0 license
+- Add OSHW logo to schematic and PCBs
+- Add robhailman.com URL to schematic and PCBs
+
 Rev A.1
 2020-01-17
 
