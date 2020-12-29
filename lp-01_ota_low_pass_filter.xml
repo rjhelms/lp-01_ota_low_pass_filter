@@ -2,16 +2,16 @@
 <export version="D">
   <design>
     <source>C:\Users\rob\Documents\KiCad_projects\synth\lp-01_ota_low_pass_filter\lp-01_ota_low_pass_filter.sch</source>
-    <date>12/27/2020 3:33:05 PM</date>
+    <date>12/28/2020 11:46:08 PM</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>LP-01 OTA Low-Pass Filter</title>
-        <company>RJH</company>
+        <company>RJH robhailman.com</company>
         <rev>A.2</rev>
-        <date>2020-12-26</date>
+        <date>2020-12-27</date>
         <source>lp-01_ota_low_pass_filter.sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -553,11 +553,11 @@
       <tstamp>5D71D05A</tstamp>
     </comp>
     <comp ref="RV5">
-      <value>B100K</value>
+      <value>A100K</value>
       <footprint>Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="MFN">RD901F-40-15F-B100K</field>
+        <field name="MFN">RD901F-40-15F-A100K</field>
         <field name="Manufacturer">Alpha</field>
         <field name="Vendor">Thonk</field>
       </fields>
@@ -642,6 +642,14 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D762D2E</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Logo_Open_Hardware_Large</value>
+      <footprint>Symbol:OSHW-Logo_5.7x6mm_SilkScreen</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Large" description="Open Hardware logo, large"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA2A3E</tstamp>
     </comp>
   </components>
   <libparts>
@@ -914,6 +922,14 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Large">
+      <description>Open Hardware logo, large</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Large</field>
+      </fields>
+    </libpart>
     <libpart lib="Transistor_BJT" part="2N3906">
       <aliases>
         <alias>2N3905</alias>
@@ -988,6 +1004,9 @@
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Graphic.lib</uri>
     </library>
     <library logical="Transistor_BJT">
       <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>

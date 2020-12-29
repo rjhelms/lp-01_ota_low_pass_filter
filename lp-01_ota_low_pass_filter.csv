@@ -18,11 +18,12 @@ R4 ,1,4K7,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14
 R5 ,1,470K,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,CF18JT470K,Stackpole,Digi-Key
 R8 R7 R12 R11 ,4,220R,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC220R,Stackpole,Digi-Key
 R9 ,1,1K8,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,~,RNMF14FTC1K80,Stackpole,Digi-Key
-RV1 RV5 RV4 ,3,B100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,~,RD901F-40-15F-B100K,Alpha,Thonk
+RV1 RV4 ,2,B100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,~,RD901F-40-15F-B100K,Alpha,Thonk
 RV3 RV2 ,2,10K,Potentiometer_Custom:Potentiometer_Bourns_PV36W,~,PV36X103C01B00,Bourns,Digi-Key
+RV5 ,1,A100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,~,RD901F-40-15F-A100K,Alpha,Thonk
 U1 ,1,TL072,Package_DIP:DIP-8_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf,TL072IP,Texas Instruments,Digi-Key
 U2 ,1,LM13700,Package_DIP:DIP-16_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/lm13700.pdf,LM13700N/NOPB,Texas Instruments,Digi-Key
 U3 ,1,TL074,Package_DIP:DIP-14_W7.62mm_Socket,http://www.ti.com/lit/ds/symlink/tl071.pdf,TL074CN,Texas Instruments,Digi-Key
-U1 ,1,TL072 (socket),Package_DIP:DIP-8_W7.62mm_Socket,~,ED08T,On Shore Technology,Digi-Key
-U2 ,1,LM13700 (socket),Package_DIP:DIP-16_W7.62mm_Socket,~,ED16T,On Shore Technology,Digi-Key
-U3 ,1,TL074 (socket),Package_DIP:DIP-14_W7.62mm_Socket,~,ED14T,On Shore Technology,Digi-Key
+U1 ,1,DIP-8 socket,Package_DIP:DIP-8_W7.62mm_Socket,,ED08DT,On Shore Technology,Digi-Key
+U2 ,1,DIP-16 socket,Package_DIP:DIP-16_W7.62mm_Socket,,ED16DT,On Shore Technology,Digi-Key
+U3 ,1,DIP-14 socket,Package_DIP:DIP-14_W7.62mm_Socket,,ED14DT,On Shore Technology,Digi-Key
